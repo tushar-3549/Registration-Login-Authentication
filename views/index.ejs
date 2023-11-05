@@ -1,0 +1,33 @@
+<style>
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    main{
+        margin: 30px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+</style>
+<%-include("layout/header")%>
+    <main>
+        <h1>Welcome to Our Website!</h1>
+
+        <div class="container">
+            <p>This is a simple and clean homepage with a minimalistic design. We are welcome to you at our simple website and practicing passport local strategy </p>
+            <p>You can see your info <a href="#">Dashboard</a> more about user.</p>
+        </div>
+
+    </main>
+    <%-include("layout/footer")%>

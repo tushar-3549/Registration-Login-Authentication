@@ -1,0 +1,108 @@
+<!-- <title>Dashboard</title> -->
+<!-- Include Font Awesome library for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .dashboard {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    .left-panel {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #e0e0e0;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-item {
+        margin-bottom: 10px;
+    }
+
+    .menu-item i {
+        margin-right: 10px;
+    }
+
+    .right-panel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        margin-top: 10px;
+    }
+
+    .profile-icon {
+        font-size: 60px;
+        color: #fff;
+        /* background-color: #007BFF; */
+        border-radius: 50%;
+        padding: 20px;
+    }
+</style>
+
+<div class="dashboard">
+    <div class="left-panel">
+        <div class="profile-photo"><i class="fas fa-user profile-icon"></i></div>
+        <ul class="menu">
+            <li class="menu-item"><i class="fas fa-user"></i>Profile</li>
+            <li class="menu-item"><i class="fas fa-cog"></i>Settings</li>
+            <li class="menu-item"><i class="fas fa-question-circle"></i>Help</li>
+        </ul>
+    </div>
+    <div class="right-panel">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>This is the content of Card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>This is the content of Card 2.</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>This is the content of Card 3.</p>
+        </div>
+        <div class="card">
+            <h3>Card 4</h3>
+            <p>This is the content of Card 4.</p>
+        </div>
+    </div>
+</div>
+
+</div>
